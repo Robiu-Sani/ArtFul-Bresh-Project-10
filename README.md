@@ -36,5 +36,10 @@ Visit the live site: [Artful Brush Live](https://kaleidoscopic-faloodeh-207bf9.n
 
 Server Ripo: [Artful Brush server](https://github.com/Robiu-Sani/---Artful-Brush-server)
 ---
-
+how to run this project 
+```
+cd ArtFul-Bresh-Project-10
+npm install
+npm run dev
+```
 Explore our diverse collection and unleash your creativity with Artful Brush!
