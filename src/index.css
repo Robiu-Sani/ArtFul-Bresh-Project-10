@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  transition: 0.5s;
+}
+.sliderHeight {
+  min-height: calc(100vh - 70px) !important;
+}
+.fontstyle,
+h1 {
+  font-family: "Lobster", sans-serif;
+}
+.customBg {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+a.active {
+  font-weight: bolder;
+  color: orangered !important;
+  background: transparent !important;
+}
+.formbg {
+  background: rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.cardShow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cardOff {
+  position: fixed;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#my-tooltip {
+  z-index: 100000;
+  background: linear-gradient(black, rgb(133, 133, 133));
+}
